@@ -2,7 +2,7 @@ from django.db import models
 from mptt.models import MPTTModel, TreeForeignKey
 from django.core import urlresolvers
 from django.contrib.contenttypes.models import ContentType
-from splarch.util import render_to_latex
+from architecture.util import render_to_latex
 
 REQUIREMENT_TYPE = (
     ('functional-requirements', 'Functional Requirements'),

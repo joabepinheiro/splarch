@@ -124,7 +124,7 @@ INSTALLED_APPS = (
     'admin_bootstrapped',
     'mptt',
     'mptttreewidget',
-    'splarch',
+    'architecture',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )

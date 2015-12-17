@@ -1,5 +1,5 @@
 from django.contrib import admin
-from splarch.models import *
+from architecture.models import *
 from django.contrib.auth.models import * 
 from django import forms
 from django.forms import *
@@ -13,7 +13,7 @@ from django.contrib.admin import helpers
 from django.utils.translation import ugettext as _
 from django.utils.encoding import force_unicode
 from django.template import RequestContext
-from splarch.util import render_to_latex
+from architecture.util import render_to_latex
 from django.http import HttpResponse
 from django.core.files.temp import NamedTemporaryFile
 import os
